@@ -3,6 +3,15 @@ h1{
 
 }
 p{
-    color: brown;
-    /*background-color: crimson;*/
+    color: white;
+    background-color: crimson;
+    padding: 15px;
+    border: 10px solid powderblue;
+    margin: 50px;
 }
+
+/*Si se coloca un solo valor en el padding este se clona en los
+demas atributos top, left, bottom, right*/
+/*El margen no es para establecer color, sino para establecer espacio*/
+/*Si se colocan mas valores para estas cajas estas pueden tener su propio valor
+asignado*/
