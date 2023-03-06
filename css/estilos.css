@@ -1,12 +1,13 @@
 h1{  
-    color: blue;
+    color: #e63946;
+    text-align: center;
 
 }
 p{
-    color: white;
-    background-color: crimson;
+    color: #457b9d;
+    background-color: #f1faee;
     padding: 15px;
-    border: 10px solid powderblue;
+    border: 10px solid #1d3557;
     /*margin-top: 40px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -26,3 +27,5 @@ asignado*/
 /*Si queremos usar la forma abreviada debemos tener en cuenta
 el orden de los elementos: top, right, bottom, left*/
 /*Si queremos centrar de forma horizontal usamos margin: auto (px)*/
+/*Podemos encontrarnos con una paleta de colores en la pagina
+https://coolors.co/palettes/trending */
