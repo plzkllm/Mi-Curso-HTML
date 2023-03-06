@@ -7,7 +7,15 @@ p{
     background-color: crimson;
     padding: 15px;
     border: 10px solid powderblue;
-    margin: 50px;
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;*/
+   /* margin: 40px 15px 20px 10px;*/
+   /*margin: 40px 10px 20px;*/
+   margin: 40px 10px;
+   margin: auto 50px; 
+   text-align: center;
 }
 
 /*Si se coloca un solo valor en el padding este se clona en los
@@ -15,3 +23,6 @@ demas atributos top, left, bottom, right*/
 /*El margen no es para establecer color, sino para establecer espacio*/
 /*Si se colocan mas valores para estas cajas estas pueden tener su propio valor
 asignado*/
+/*Si queremos usar la forma abreviada debemos tener en cuenta
+el orden de los elementos: top, right, bottom, left*/
+/*Si queremos centrar de forma horizontal usamos margin: auto (px)*/
