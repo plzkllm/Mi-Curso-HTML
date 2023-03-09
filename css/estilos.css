@@ -1,31 +1,26 @@
-h1{  
-    color: #e63946;
-    text-align: center;
+h1{
+    color: #f07167;
 
 }
-p{
-    color: #457b9d;
-    background-color: #f1faee;
-    padding: 15px;
-    border: 10px solid #1d3557;
-    /*margin-top: 40px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;*/
-   /* margin: 40px 15px 20px 10px;*/
-   /*margin: 40px 10px 20px;*/
-   margin: 40px 10px;
-   margin: auto 50px; 
-   text-align: center;
+
+a:link{
+    color: #fb8500;
+    text-decoration: none;
+    /*Esto le quita el subrayado al link*/
 }
 
-/*Si se coloca un solo valor en el padding este se clona en los
-demas atributos top, left, bottom, right*/
-/*El margen no es para establecer color, sino para establecer espacio*/
-/*Si se colocan mas valores para estas cajas estas pueden tener su propio valor
-asignado*/
-/*Si queremos usar la forma abreviada debemos tener en cuenta
-el orden de los elementos: top, right, bottom, left*/
-/*Si queremos centrar de forma horizontal usamos margin: auto (px)*/
-/*Podemos encontrarnos con una paleta de colores en la pagina
-https://coolors.co/palettes/trending */
+a:visited{
+    color: #219ebc;
+    text-decoration: none;
+    /*Esto le quita el subrayado al link*/
+}
+a:hover{
+    /*Cuando nos ponemos encima del link*/
+    color: #000;
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: underline;
+}
